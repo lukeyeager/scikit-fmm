@@ -1,0 +1,18 @@
+Source: scikit-fmm
+Maintainer: Luke Yeager <luke.yeager@gmail.com>
+Section: universe/python
+Priority: optional
+Build-depends: debhelper (>= 9), dh-python, python-all, python-numpy
+Standards-Version: 3.9.5
+Homepage: https://pythonhosted.org/scikit-fmm
+Vcs-Browser: https://github.com/scikit-fmm/scikit-fmm
+
+Package: python-skfmm
+Architecture: amd64
+Depends: ${python:Depends}, ${misc:Depends}
+Description: An extension module implementing the fast marching method
+ scikit-fmm is a Python extension module which implements the fast
+ marching method.
+ - Signed distance functions
+ - Travel time transforms (solutions to the Eikonal equation)
+ - Extension velocities
