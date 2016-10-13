@@ -1,3 +1,9 @@
+scikit-fmm (0.0.9-1ppa1) trusty; urgency=medium
+
+  * 0.0.9 for ppa
+
+ -- Luke Yeager <luke.yeager@gmail.com>  Thu, 13 Oct 2016 10:25:36 -0700
+
 scikit-fmm (0.0.9-1) trusty; urgency=medium
 
   * 0.0.9
