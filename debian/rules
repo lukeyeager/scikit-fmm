@@ -5,3 +5,7 @@ export PYBUILD_NAME=scikit-fmm
 
 %:
 	dh $@ --parallel --with python2 --buildsystem=pybuild
+
+override_dh_auto_install:
+	dh_auto_install
+	dh_numpy
